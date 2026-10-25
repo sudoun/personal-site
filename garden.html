@@ -9,15 +9,15 @@
   <script>
     const destination = new URL("https://sudoun.github.io/");
     destination.search = location.search;
-    destination.searchParams.set("v", "glass-20261025");
+    destination.searchParams.set("v", "persistent-glass-20261025");
     destination.hash = location.hash;
     if (["#notes", "#frameread"].includes(destination.hash)) destination.hash = "#about";
     if (["#nijo-castle", "#hogwarts-castle"].includes(destination.hash)) destination.hash = "#products";
     location.replace(destination.href);
   </script>
-  <noscript><meta http-equiv="refresh" content="0;url=https://sudoun.github.io/?v=glass-20261025"></noscript>
+  <noscript><meta http-equiv="refresh" content="0;url=https://sudoun.github.io/?v=persistent-glass-20261025"></noscript>
 </head>
 <body>
-  <p>个人网站已迁移，<a href="https://sudoun.github.io/?v=glass-20261025">点击打开新版</a>。</p>
+  <p>个人网站已迁移，<a href="https://sudoun.github.io/?v=persistent-glass-20261025">点击打开新版</a>。</p>
 </body>
 </html>
