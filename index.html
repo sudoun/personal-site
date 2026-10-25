@@ -9,13 +9,14 @@
   <script>
     const destination = new URL("https://sudoun.github.io/");
     destination.search = location.search;
-    destination.searchParams.set("v", "soda-card-20261025");
+    destination.searchParams.set("v", "defer-notes-20261025");
     destination.hash = location.hash;
+    if (["#notes", "#frameread"].includes(destination.hash)) destination.hash = "#about";
     location.replace(destination.href);
   </script>
-  <noscript><meta http-equiv="refresh" content="0;url=https://sudoun.github.io/?v=soda-card-20261025"></noscript>
+  <noscript><meta http-equiv="refresh" content="0;url=https://sudoun.github.io/?v=defer-notes-20261025"></noscript>
 </head>
 <body>
-  <p>个人网站已迁移，<a href="https://sudoun.github.io/?v=soda-card-20261025">点击打开新版</a>。</p>
+  <p>个人网站已迁移，<a href="https://sudoun.github.io/?v=defer-notes-20261025">点击打开新版</a>。</p>
 </body>
 </html>
